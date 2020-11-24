@@ -5,3 +5,8 @@
 li{
   list-style-type: none;
 }
+.clearfix::after{
+  content: "";
+  clear: both;
+  display: table;
+}

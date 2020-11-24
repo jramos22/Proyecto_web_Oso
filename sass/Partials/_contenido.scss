@@ -1,0 +1,112 @@
+#contenido{
+  padding-top: 85px;
+}
+#titulo_contenido1{
+  padding:0px 547px 0px 546px;
+  font-size: 60px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+}
+#titulo_contenido2{
+  padding:0px 529px 0px 525px;
+  font-size: 60px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  margin-bottom: 47px;
+}
+#titulo_contenido3{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 0px 476px 0px 476px;
+  text-align: center;
+  margin-bottom: 44px;
+}
+.linea{
+  width: 83px;
+  height: 1px;
+  background-color: $negro;
+  margin-bottom: 60px;
+}
+.parrafo{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 0px 300px 0px 320px;
+  text-align: center;
+  margin-bottom: 44px;
+}
+#contenido2{
+  margin-top: 99px;
+}
+#contenido2 img{
+  display: block;
+}
+.subcontenido{
+  float: left;
+  width: 50%;
+  background-color: $papaya;
+  font-family: 'Raleway', sans-serif;
+}
+.subcontenido #parrafo2{
+  font-weight: 700;
+  font-size: 36px;
+  padding: 137px 121px 66px 100px;
+  text-align: start;
+}
+.subcontenido #parrafo3{
+  font-weight: 300;
+  font-size: 36px;
+  padding: 0px 427px 55px 100px;
+  text-align: start;
+}
+.subcontenido #imagen{
+  padding: 0px 627px 90px 100px;
+}
+#contenido3 {
+  padding-top: 133px;
+}
+#contenido3 h2{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  padding: 0px 904px 0px 100px;
+}
+#contenido3 .linea{
+  margin: 40px 1415px 93px 100px;
+}
+#subcontenedor{
+  padding: 0px 100px 58px 100px;
+}
+#subcontenedor h4{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700px;
+  font-size: 30px;
+}
+#subcontenedor h4{
+  padding:43px 141px 43px 49px;
+}
+.subcontenidos{
+  width: 49.8%;
+  float: left;
+  border: solid 1px $gris;
+}
+.subcontenidos p{
+  padding:0px 141px 43px 49px;
+}
+#some{
+  padding-bottom:10px;
+}
+#some2{
+  padding-bottom: 58px;
+}
+#enjoy{
+  padding-bottom:10px;
+}
+#enjoy2{
+  padding-bottom: 58px;
+}
+.estilo{
+  font-weight: 400;
+  color: $grisoscuro;
+}
