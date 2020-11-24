@@ -1,0 +1,20 @@
+#header1{
+  padding: 50px 197px 255px 197px;
+  background-image: url("/img/Oso.png");
+  background-size: cover;
+}
+#header1 h2, #header1 h3{
+  float: left;
+}
+#header1 h2{
+  background-color: $negro;
+  color: $blanco;
+  padding: 21px 27px;
+  margin-right: 945px;
+}
+#header1 h3{
+  margin-top: 23px;
+  color: $blanco;
+  border-top: solid 2px $blanco;
+  border-bottom: solid 2px $blanco;
+}
