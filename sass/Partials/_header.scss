@@ -9,18 +9,29 @@
   float: left;
   font-family: 'Montserrat', sans-serif;
 }
+#header1 h2 a{
+  color: $blanco;
+  text-decoration: none;
+}
+#header h3 a{
+  color: $blanco;
+  text-decoration: none;
+}
 #header1 h2{
   background-color: $negro;
   color: $blanco;
   padding: 21px 27px;
   margin-right: 945px;
 }
-#header1 h3{
+#header1 h3 a{
   margin-top: 23px;
   color: $blanco;
   border-top: solid 2px $blanco;
   border-bottom: solid 2px $blanco;
-
+}
+#header1 h3 a:hover{
+  color: $negro;
+  border-color: $negro;
 }
 #header2{
   padding-bottom: 374px;

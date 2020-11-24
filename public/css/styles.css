@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&family=Raleway:wght@100;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bevan&family=Lato:wght@700&family=Montserrat:wght@200;400;700&family=Raleway:wght@100;300;400;500;600;700&display=swap");
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -331,17 +331,29 @@ li {
   float: left;
   font-family: 'Montserrat', sans-serif; }
 
+#header1 h2 a {
+  color: #ffffff;
+  text-decoration: none; }
+
+#header h3 a {
+  color: #ffffff;
+  text-decoration: none; }
+
 #header1 h2 {
   background-color: #000000;
   color: #ffffff;
   padding: 21px 27px;
   margin-right: 945px; }
 
-#header1 h3 {
+#header1 h3 a {
   margin-top: 23px;
   color: #ffffff;
   border-top: solid 2px #ffffff;
   border-bottom: solid 2px #ffffff; }
+
+#header1 h3 a:hover {
+  color: #000000;
+  border-color: #000000; }
 
 #header2 {
   padding-bottom: 374px; }
@@ -388,11 +400,11 @@ li {
   text-align: center;
   margin-bottom: 44px; }
 
-.linea {
+#contenido1 .linea {
   width: 83px;
   height: 1px;
   background-color: #000000;
-  margin-bottom: 60px; }
+  margin: 0px 757px 60px 759px; }
 
 .parrafo {
   font-family: 'Raleway', sans-serif;
@@ -439,6 +451,9 @@ li {
   padding: 0px 904px 0px 100px; }
 
 #contenido3 .linea {
+  width: 83px;
+  height: 1px;
+  background-color: #000000;
   margin: 40px 1415px 93px 100px; }
 
 #subcontenedor {
@@ -472,6 +487,149 @@ li {
 #enjoy2 {
   padding-bottom: 58px; }
 
-.estilo {
+#contenido3 .estilo {
   font-weight: 400;
   color: #b2afa8; }
+
+#contenido3 .buttom {
+  padding: 64px 688px 136px 693px; }
+
+#contenido3 .buttom a {
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #000000;
+  border: solid 1px #000000;
+  padding: 20px 30px 20px 30px; }
+
+#contenido3 .buttom a:hover {
+  color: #ffffff;
+  background-color: #000000; }
+
+#contenido4 {
+  background-image: url("/img/manos.png");
+  background-size: cover; }
+
+#contenido4 h2 {
+  color: #ffffff;
+  font-size: 60px;
+  text-align: center;
+  padding: 200px 370px 62px 370px; }
+
+#contenido4 p {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 0px 612px 170px 636px; }
+
+#contenido4 p a {
+  color: #ffffff; }
+
+#contenido5 {
+  padding: 104px 100px 118px 100px;
+  background-color: #f3f4f5; }
+
+#contenido5 h2 {
+  font-size: 60px;
+  margin-bottom: 28px; }
+
+#contenido5 .linea {
+  width: 83px;
+  height: 1px;
+  background-color: #000000;
+  margin-bottom: 100px; }
+
+#subsub1 {
+  width: 559px;
+  float: left;
+  background-image: url("/img/traje.png");
+  background-size: cover;
+  margin-right: 97px; }
+
+#subsub1 p {
+  padding: 203px 215px 163px 103px;
+  font-size: 60px;
+  color: #ffffff;
+  font-weight: 700;
+  text-align: right;
+  line-height: 90px; }
+
+#subsubsub1 {
+  padding: 0px 0px 32px 32px;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 2px; }
+
+#subsubsub1 a {
+  color: #ffffff;
+  text-decoration: none; }
+
+#subsubsub1 .buy {
+  padding: 0px 284px 0px 0px; }
+
+#subsub2 {
+  float: left; }
+
+#sub_barranco {
+  width: 738px;
+  background-image: url("/img/barranco.png");
+  background-size: cover;
+  font-family: 'Times New Roman',Times, serif;
+  font-weight: bold;
+  margin-bottom: 50px; }
+
+#sub_barranco #texto1 {
+  font-size: 36px;
+  padding: 89px 362px 22px 77px; }
+
+#sub_barranco #texto2 {
+  font-size: 20px;
+  padding: 0px 362px 164px 77px; }
+
+#subcafe {
+  width: 328px;
+  float: left;
+  background-image: url("/img/cafe.png");
+  background-size: cover;
+  margin-right: 80px; }
+
+#subcafe p {
+  font-size: 20px;
+  font-family: 'Bevan',cursive;
+  text-align: center;
+  padding: 37px 81px 260px 90px;
+  line-height: 29px; }
+
+#sublentes {
+  width: 328px;
+  float: left;
+  background-image: url("/img/lentes.png");
+  background-size: cover; }
+
+#sublentes p {
+  font-size: 30px;
+  font-family: 'Lato',sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  padding: 169px 81px 126px 90px;
+  line-height: 29px; }
+
+#contenido5 .buttom {
+  padding: 120px 597px 40px 560px; }
+
+#contenido5 .buttom a {
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #000000;
+  border: solid 1px #000000;
+  padding: 20px 30px 20px 30px; }
+
+#contenido5 .buttom a:hover {
+  color: #ffffff;
+  background-color: #000000; }
