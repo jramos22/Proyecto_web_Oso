@@ -553,8 +553,7 @@ li {
 #subsub1:hover {
   padding-top: 50%; }
   #subsub1:hover .subsubsub1 {
-    display: block;
-    transition-duration: 1000ms; }
+    display: block; }
 
 #subsub1 .subsubsub1 {
   display: none;
@@ -658,7 +657,7 @@ li {
   font-family: 'Montserrat', sans-serif;
   margin-bottom: 5.5%; }
 
-#prefooter div {
+#prefooter .foo {
   float: left;
   width: 25%; }
 
@@ -759,3 +758,100 @@ li {
 #footer ul li {
   float: left;
   margin-left: 7%; }
+
+@media (max-width: 967px) {
+  .subcontenido {
+    float: left;
+    width: 100%; }
+  #contenido3 .buttom {
+    margin: 4% 30% 8.5% 40.313%; }
+  #contenido4 h2 {
+    font-size: 2.5rem; }
+  #contenido4 p {
+    font-size: 1.0625rem; }
+  #contenido5 a {
+    font-size: 0.75rem; }
+  #prefooter div {
+    float: left;
+    width: 50%; }
+  #prefooter .foo {
+    width: 100%; } }
+
+@media (max-width: 693px) {
+  #titulo_contenido1 {
+    font-size: 2.5rem; }
+  #titulo_contenido2 {
+    font-size: 2.5rem; }
+  #titulo_contenido3 {
+    font-size: 1.25rem; }
+  .subcontenidos {
+    width: 99%; }
+  #contenido3 .buttom {
+    margin: 4% 0% 8.5% 30.313%; }
+  #contenido4 h2 {
+    font-size: 1.875rem; }
+  #contenido4 p {
+    font-size: 0.75rem; }
+  #subsub1 {
+    width: 100%;
+    margin-right: 0%;
+    padding-top: 190.300%; }
+  #subsub1:hover {
+    padding-top: 180%; }
+    #subsub1:hover .subsubsub1 {
+      display: block; }
+  #subsub2 {
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 10%; }
+  #subsub2 #subcafe:hover {
+    padding-top: 45%; }
+    #subsub2 #subcafe:hover .subsubsub1 {
+      display: block; }
+  #subsub2 #subcafe .subsubsub1 {
+    font-size: 0.625rem; }
+  #subsub2 #subcafe .subsubsub1 a {
+    color: #000000; }
+  #subsub2 #sublentes:hover {
+    padding-top: 45%; }
+    #subsub2 #sublentes:hover .subsubsub1 {
+      display: block; }
+  #subsub2 #sublentes .subsubsub1 {
+    font-size: 0.625rem; }
+  #subsub2 #sublentes .subsubsub1 a {
+    color: #000000; }
+  #contenido5 .buttom {
+    margin: 8% 0% 8.5% 28.813%; }
+  #contenido5 .buttom a {
+    padding: 2.25% 3.875% 2.25% 3.875%; }
+  #prefooter div {
+    float: left;
+    width: 100%; }
+  #prefooter .foo {
+    width: 100%; }
+  #prefooter ul li {
+    padding-bottom: 1.188%; }
+  #prefooter .titulo1 {
+    padding-top: 20.063%;
+    padding-bottom: 10.063%; }
+  #prefooter .titulo2 {
+    padding-top: 20.063%;
+    padding-bottom: 15.063%; }
+  #prefooter #suscri .titulo2 {
+    padding-top: 20.063%;
+    padding-bottom: 10.063%;
+    margin-left: 8%;
+    font-weight: 700; }
+  #suscri p {
+    color: #000000;
+    margin-left: 8%; }
+  #suscri input {
+    margin-left: 8%; }
+  #suscri .buttom {
+    width: 80%;
+    margin-left: 8%; }
+  #suscri .buttom a {
+    padding: 3.75% 6.688% 3.75% 6.688%; }
+  #footer ul li {
+    float: left;
+    margin-left: 2%; } }

@@ -1,3 +1,31 @@
-@media (max-width: 767px){
+@media (max-width: 967px){
+// contenido2
+.subcontenido{
+  float: left;
+  width: 100%;
+}
+// contenido3
+#contenido3 .buttom{
+  margin: 4% 30% 8.5% 40.313%;
+}
+//contenido4
+#contenido4 h2{
+  @include fontsize(40px);
+}
+#contenido4 p{
 
+  @include fontsize(17px);
+}
+// contenido5
+#contenido5 a{
+  @include fontsize(12px);
+}
+//prefooter
+#prefooter div{
+  float: left;
+  width: 50%;
+}
+#prefooter .foo{
+  width: 100%;
+}
 }

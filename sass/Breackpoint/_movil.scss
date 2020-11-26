@@ -1,3 +1,118 @@
-@media (max-width: 463px){
+@media (max-width: 693px){
+  //contenido1
+  #titulo_contenido1{
+    @include fontsize(40px);
+  }
+  #titulo_contenido2{
+    @include fontsize(40px);
+  }
+  #titulo_contenido3{
+    @include fontsize(20px);
+  }
+  //Contenido3
+  .subcontenidos{
+    width: 99%;
+  }
+  #contenido3 .buttom{
+    margin: 4% 0% 8.5% 30.313%;
+  }
+  //contenido4
+  #contenido4 h2{
+    @include fontsize(30px);
+  }
+  #contenido4 p{
+    @include fontsize(12px);
+  }
+  //contenido5
+  #subsub1{
+    width: 100%;
+    margin-right: 0%;
+    padding-top: 190.300%;
+  }
+  #subsub1:hover{
+    padding-top: 180%;
+    .subsubsub1{
+      display: block;
+    }
+  }
+  #subsub2{
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  #subsub2 #subcafe:hover{
+    padding-top: 45%;
+    .subsubsub1{
+      display: block;
+    }
+  }
+  #subsub2 #subcafe .subsubsub1{
+    @include fontsize(10px);
+  }
+  #subsub2 #subcafe .subsubsub1 a{
+    color: $negro;
+  }
+  #subsub2 #sublentes:hover{
+    padding-top: 45%;
+    .subsubsub1{
+      display: block;
+    }
+  }
+  #subsub2 #sublentes .subsubsub1{
+    @include fontsize(10px);
+  }
+  #subsub2 #sublentes .subsubsub1 a{
+    color: $negro;
+  }
+  #contenido5 .buttom{
+    margin: 8% 0% 8.5% 28.813%;
+  }
 
+  #contenido5 .buttom a{
+    padding: 2.25% 3.875% 2.25% 3.875%;
+  }
+//prefooter
+#prefooter div{
+  float: left;
+  width: 100%;
+}
+#prefooter .foo{
+  width: 100%;
+}
+#prefooter ul li{
+  padding-bottom: 1.188%;
+}
+#prefooter .titulo1{
+  padding-top: 20.063%;
+  padding-bottom: 10.063%;
+}
+#prefooter .titulo2{
+  padding-top: 20.063%;
+  padding-bottom: 15.063%;
+}
+#prefooter #suscri .titulo2{
+  padding-top: 20.063%;
+  padding-bottom: 10.063%;
+  margin-left: 8%;
+  font-weight: 700;
+}
+#suscri p{
+  color:$negro;
+  margin-left: 8%;
+}
+#suscri input{
+  margin-left: 8%;
+}
+#suscri .buttom{
+  width: 80%;
+  margin-left: 8%;
+}
+#suscri .buttom a{
+  padding: 3.75% 6.688% 3.75% 6.688%;
+}
+//footer
+#footer ul li{
+  float: left;
+  margin-left: 2%;
+}
 }
