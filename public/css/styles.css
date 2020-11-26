@@ -476,16 +476,10 @@ li {
 .subcontenidos p {
   padding: 0% 22.813% 2.688% 6.100%; }
 
-#some {
+.some {
   padding-bottom: 0.625%; }
 
-#some2 {
-  padding-bottom: 2.224%; }
-
-#enjoy {
-  padding-bottom: 0.625%; }
-
-#enjoy2 {
+.some2 {
   padding-bottom: 2.224%; }
 
 #contenido3 .estilo {
@@ -821,7 +815,7 @@ li {
   #subsub2 #sublentes .subsubsub1 a {
     color: #000000; }
   #contenido5 .buttom {
-    margin: 8% 0% 8.5% 28.813%; }
+    margin: 8% 0% 8.5% 26.813%; }
   #contenido5 .buttom a {
     padding: 2.25% 3.875% 2.25% 3.875%; }
   #prefooter div {
@@ -854,4 +848,4 @@ li {
     padding: 3.75% 6.688% 3.75% 6.688%; }
   #footer ul li {
     float: left;
-    margin-left: 2%; } }
+    margin-left: 1%; } }

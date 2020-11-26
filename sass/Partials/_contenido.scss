@@ -2,6 +2,7 @@
   width: 100%;
   padding-top: 5.438%;
 }
+//contenido1
 #titulo_contenido1{
   padding:0% 34.188% 0% 34.125%;
   @include fontsize(60px);
@@ -39,6 +40,9 @@
   text-align: center;
   margin-bottom: 2.75%;
 }
+//fin contenido1
+
+//contenido2
 #contenido2{
   max-width: 100%;
   margin-top: 6.188%;
@@ -73,6 +77,9 @@
 .subcontenido #imagen{
   padding: 0% 39.813% 14.600% 12.25%;
 }
+//fin contenido2
+
+//contenido3
 #contenido3 {
   padding-top: 8.313%;
 }
@@ -111,18 +118,13 @@
 .subcontenidos p{
   padding:0% 22.813% 2.688% 6.100%;
 }
-#some{
+.some{
   padding-bottom:0.625%;
 }
-#some2{
+.some2{
   padding-bottom: 2.224%;
 }
-#enjoy{
-  padding-bottom:0.625%;
-}
-#enjoy2{
-  padding-bottom: 2.224%;
-}
+
 #contenido3 .estilo{
   font-weight: 400;
   color: $grisoscuro;
@@ -144,6 +146,9 @@
   color: $blanco;
   background-color: $negro;
 }
+//fin contenido3
+
+//contenido4
 #contenido4{
   background-image: url("../../img/manos.png");
   background-size: cover;
@@ -163,6 +168,9 @@
 #contenido4 p a{
   color: $blanco;
 }
+// fin contenido4
+
+//contenido5
 #contenido5{
   padding: 6.5% 6.100% 7.375% 6.100%;
   background-color: $posters;
@@ -177,6 +185,7 @@
   background-color: $negro;
   margin-bottom: 6.100%;
 }
+// traje
 #subsub1{
   width: 40%;
   float: left;
@@ -206,10 +215,12 @@
   float: right;
   padding-right: 6%;
 }
+// fin traje
 #subsub2{
   float: left;
   width: 54%;
 }
+//barranco
 #sub_barranco{
   width: 100%;
   padding-top: 45%;
@@ -232,6 +243,9 @@
   font-weight: 700;
   letter-spacing: 2px;
 }
+//fin barranco
+
+//cafe
 #subcafe{
   width: 47%;
   padding-top: 52%;
@@ -253,7 +267,9 @@
   font-weight: 700;
   letter-spacing: 2px;
 }
+//fin cafe
 
+//lentes
 #sublentes{
   width: 47%;
   padding-top: 52%;
@@ -274,6 +290,7 @@
   font-weight: 700;
   letter-spacing: 2px;
 }
+//fin lentes
 
 #contenido5 .buttom{
   margin: 8% 0% 8.5% 39.813%;
@@ -293,4 +310,5 @@
   color: $blanco;
   background-color: $negro;
 }
+//fin contenido5
 

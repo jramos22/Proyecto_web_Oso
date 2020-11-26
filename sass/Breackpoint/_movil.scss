@@ -24,6 +24,7 @@
     @include fontsize(12px);
   }
   //contenido5
+  // traje
   #subsub1{
     width: 100%;
     margin-right: 0%;
@@ -35,11 +36,13 @@
       display: block;
     }
   }
+  // fin traje
   #subsub2{
     width: 100%;
     margin-top: 10%;
     margin-bottom: 10%;
   }
+  // cafe
   #subsub2 #subcafe:hover{
     padding-top: 45%;
     .subsubsub1{
@@ -52,6 +55,9 @@
   #subsub2 #subcafe .subsubsub1 a{
     color: $negro;
   }
+  //fin cafe
+
+  //lentes
   #subsub2 #sublentes:hover{
     padding-top: 45%;
     .subsubsub1{
@@ -64,8 +70,10 @@
   #subsub2 #sublentes .subsubsub1 a{
     color: $negro;
   }
+  // fin lentes
+
   #contenido5 .buttom{
-    margin: 8% 0% 8.5% 28.813%;
+    margin: 8% 0% 8.5% 26.813%;
   }
 
   #contenido5 .buttom a{
@@ -90,6 +98,7 @@
   padding-top: 20.063%;
   padding-bottom: 15.063%;
 }
+//suscri
 #prefooter #suscri .titulo2{
   padding-top: 20.063%;
   padding-bottom: 10.063%;
@@ -110,9 +119,12 @@
 #suscri .buttom a{
   padding: 3.75% 6.688% 3.75% 6.688%;
 }
+//fin suscri
+//fin prefooter
+
 //footer
 #footer ul li{
   float: left;
-  margin-left: 2%;
+  margin-left: 1%;
 }
 }
