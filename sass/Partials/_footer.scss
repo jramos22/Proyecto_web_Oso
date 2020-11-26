@@ -1,22 +1,24 @@
 #footer{
   background-color: $posters;
-  padding-top: 38px;
-  padding-bottom: 38px;
+  padding-top: 2.375%;
+  padding-bottom: 2.375%;
   padding-right: 5%;
   padding-left: 5%;
   @include fontsize(16px);
 }
 #footer p{
+  width: 50%;
   color: $negro;
   float: left;
-  margin-right: 414px;
 }
 #footer ul{
-  float: left;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  width: 50%;
+  float: right;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  padding-left: 0%;
 }
 #footer ul li{
   float: left;
-  margin-left: 34px;
+  margin-left: 7%;
 }

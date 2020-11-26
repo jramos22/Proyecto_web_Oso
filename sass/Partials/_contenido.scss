@@ -1,4 +1,5 @@
 #contenido{
+  width: 100%;
   padding-top: 5.438%;
 }
 #titulo_contenido1{
@@ -6,6 +7,7 @@
   @include fontsize(60px);
   font-family: 'Raleway', sans-serif;
   font-weight: 200;
+  text-align: center;
 }
 #titulo_contenido2{
   padding:0% 33.063% 0% 32.813%;
@@ -13,6 +15,7 @@
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   margin-bottom: 2.938%;
+  text-align: center;
 }
 #titulo_contenido3{
   font-family: 'Raleway', sans-serif;
@@ -96,8 +99,12 @@
 #subcontenedor h4{
   padding:2.688% 8.813% 2.688% 6.100%;
 }
+.subcontenidos1{
+  float: left;
+  width: 100%;
+}
 .subcontenidos{
-  width: 49.8%;
+  width: 49%;
   float: left;
   border: solid 1px $gris;
 }
@@ -145,110 +152,134 @@
   color: $blanco;
   @include fontsize(60px);
   text-align: center;
-  padding: 200px 370px 62px 370px;
+  padding: 12.5% 23.125% 3.875% 23.125%;
 }
 #contenido4 p{
   color: $blanco;
   @include fontsize(20px);
   font-weight: 400;
-  padding: 0px 612px 170px 636px;
+  padding: 0% 38.25% 10.625% 39.75%;
 }
 #contenido4 p a{
   color: $blanco;
 }
 #contenido5{
-  padding: 104px 100px 118px 100px;
+  padding: 6.5% 6.100% 7.375% 6.100%;
   background-color: $posters;
 }
 #contenido5 h2{
   @include fontsize(60px);
-  margin-bottom: 28px;
+  margin-bottom: 1.75%;
 }
 #contenido5 .linea{
-  width: 83px;
+  width: 5.188%;
   height: 1px;
   background-color: $negro;
-  margin-bottom: 100px;
+  margin-bottom: 6.100%;
 }
 #subsub1{
-  width: 559px;
+  width: 40%;
   float: left;
   background-image: url("../../img/traje.png");
   background-size: cover;
-  margin-right: 97px;
+  margin-right: 6%;
+  padding-top: 54.300%;
 }
-#subsub1 p{
-  padding: 203px 215px 163px 103px;
-  @include fontsize(60px);
-  color: $blanco;
-  font-weight: 700;
-  text-align: right;
-  line-height: 90px;
+#subsub1:hover{
+  padding-top: 50%;
+  .subsubsub1{
+    display: block;
+    transition-duration: 1000ms;
+  }
 }
-#subsubsub1{
-  padding: 0px 0px 32px 32px;
+#subsub1 .subsubsub1{
+  display: none;
+  padding: 0% 0% 6% 6%;
   @include fontsize(20px);
   font-weight: 700;
   letter-spacing: 2px;
 }
-#subsubsub1 a{
+.subsubsub1 a{
   color: $blanco;
   text-decoration: none;
 }
-#subsubsub1 .buy{
-  padding: 0px 284px 0px 0px;
+.subsubsub1 .share{
+  float: right;
+  padding-right: 6%;
 }
 #subsub2{
   float: left;
+  width: 54%;
 }
 #sub_barranco{
-  width: 738px;
+  width: 100%;
+  padding-top: 45%;
   background-image: url("../../img/barranco.png");
   background-size: cover;
   font-family: 'Times New Roman',Times, serif;
   font-weight: bold;
-  margin-bottom: 50px;
+  margin-bottom: 3.925%;
 }
-#sub_barranco #texto1{
-  @include fontsize(36px);
-  padding: 89px 362px 22px 77px;
+#subsub2 #sub_barranco:hover{
+  padding-top: 37%;
+  .subsubsub1{
+    display: block;
+  }
 }
-#sub_barranco #texto2{
+#subsub2 #sub_barranco .subsubsub1{
+  display: none;
+  padding: 0% 0% 4.300% 6%;
   @include fontsize(20px);
-  padding: 0px 362px 164px 77px;
+  font-weight: 700;
+  letter-spacing: 2px;
 }
 #subcafe{
-  width: 328px;
+  width: 47%;
+  padding-top: 52%;
   float: left;
   background-image: url("../../img/cafe.png");
   background-size: cover;
-  margin-right: 80px;
+  margin-right: 6%;
 }
-#subcafe p{
+#subsub2 #subcafe:hover{
+  padding-top: 46%;
+  .subsubsub1{
+    display: block;
+  }
+}
+#subsub2 #subcafe .subsubsub1{
+  display: none;
+  padding: 0% 0% 4.300% 6%;
   @include fontsize(20px);
-  font-family: 'Bevan',cursive;
-  text-align: center;
-  padding: 37px 81px 260px 90px;
-  line-height: 29px;
+  font-weight: 700;
+  letter-spacing: 2px;
 }
+
 #sublentes{
-  width: 328px;
+  width: 47%;
+  padding-top: 52%;
   float: left;
   background-image: url("../../img/lentes.png");
   background-size: cover;
 }
-#sublentes p{
-  @include fontsize(30px);
-  font-family: 'Lato',sans-serif;
-  font-weight: bold;
-  text-align: center;
-  color: $blanco;
-  padding: 169px 81px 126px 90px;
-  line-height: 29px;
+#subsub2 #sublentes:hover{
+  padding-top: 46%;
+  .subsubsub1{
+    display: block;
+  }
 }
+#subsub2 #sublentes .subsubsub1{
+  display: none;
+  padding: 0% 0% 4.300% 6%;
+  @include fontsize(20px);
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
 #contenido5 .buttom{
-  margin: 4% 0% 8.5% 39.813%;
+  margin: 8% 0% 8.5% 39.813%;
 }
+
 #contenido5 .buttom a{
   text-decoration: none;
   text-align: center;
