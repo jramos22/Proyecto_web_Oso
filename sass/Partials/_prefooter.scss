@@ -1,0 +1,69 @@
+#prefooter{
+    width: 100%;
+    padding-right: 3%;
+    padding-left: 3%;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 88px;
+}
+#prefooter div{
+    float: left;
+    width: 25%;
+}
+#prefooter ul{
+  margin-top: 0px;
+}
+#prefooter ul li{
+  padding-bottom: 19px;
+  font-weight: 400;
+  @include fontsize(16px);
+}
+#prefooter a{
+  text-decoration: none;
+  color: $negro;
+}
+#prefooter .titulo1{
+  padding-top: 49px;
+  padding-bottom: 49px;
+  font-weight: 700;
+}
+#prefooter .titulo2{
+  padding-top: 49px;
+  padding-bottom: 35px;
+  font-weight: 700;
+}
+#prefooter #textos{
+  padding-right: 150px;
+  line-height: 39px;
+  margin-bottom: 55px;
+  @include fontsize(16px);
+  color: $prefooter;
+}
+#prefooter div form p{
+  padding-right: 150px;
+  margin-bottom: 33px;
+}
+#contact li{
+  color: $prefooter;
+}
+#suscri p{
+  color:$negro;
+}
+#suscri input{
+  background-color: $posters;
+  border: none;
+  color: $input;
+  margin-bottom: 34px;
+}
+#suscri ul{
+  padding-left: 0px;
+}
+#suscri .buttom a{
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  @include fontsize(16px);
+  color: $negro;
+  border: solid 1px $negro;
+  padding: 12px 27px 12px 27px;
+}

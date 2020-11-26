@@ -1,30 +1,39 @@
 #header{
-  background-image: url("/img/Oso.png");
+  max-width: 100%;
+  background-image: url("../../img/Oso.png");
   background-size: cover;
 }
 #header1{
-  padding: 50px 197px 255px 197px;
+  max-width: 100%;
+  padding: 3.125% 0% 52.563% 0%;
 }
-#header1 h2, #header1 h3{
+#header1 h2{
   float: left;
   font-family: 'Montserrat', sans-serif;
+}
+#header1 h3{
+  float: right;
+  margin-right: 11%;
+  margin-top: 1%;
 }
 #header1 h2 a{
   color: $blanco;
   text-decoration: none;
+  @include fontsize(30px);
 }
 #header h3 a{
   color: $blanco;
   text-decoration: none;
+  @include fontsize(20px);
+
 }
 #header1 h2{
   background-color: $negro;
   color: $blanco;
-  padding: 21px 27px;
-  margin-right: 945px;
+  padding: 1.313% 1.688%;
+  margin-left: 12.313%;
 }
 #header1 h3 a{
-  margin-top: 23px;
   color: $blanco;
   border-top: solid 2px $blanco;
   border-bottom: solid 2px $blanco;
@@ -32,26 +41,4 @@
 #header1 h3 a:hover{
   color: $negro;
   border-color: $negro;
-}
-#header2{
-  padding-bottom: 374px;
-}
-#header2 #portada1{
-  font-size: 220px;
-  color: $blanco;
-  padding-left: 708px;
-  padding-right: 178px;
-  line-height: 180px;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 100;
-}
-
-#header2 #portada2{
-  font-size: 64px;
-  color: $blanco;
-  padding-left: 706px;
-  padding-right: 200px;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 1000;
-  word-spacing: 12px;
 }
