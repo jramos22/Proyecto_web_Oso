@@ -8,12 +8,17 @@
 #contenido3 .buttom{
   margin: 4% 30% 8.5% 40.313%;
 }
+.subcontenidos{
+  width: 49%;
+  height: 260px;
+  float: left;
+  border: solid 1px $gris;
+}
 //contenido4
 #contenido4 h2{
   @include fontsize(40px);
 }
 #contenido4 p{
-
   @include fontsize(17px);
 }
 // contenido5

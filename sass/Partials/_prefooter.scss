@@ -62,7 +62,10 @@
   border: none;
   color: $input;
   margin-left: 20%;
-  margin-bottom: 10.125%;
+  margin-bottom: 5.125%;
+}
+#prefooter #suscri ul li{
+  padding-bottom: 3%;
 }
 #suscri ul{
   padding-left: 0%;
@@ -78,7 +81,7 @@
   @include fontsize(16px);
   color: $negro;
   border: solid 1px $negro;
-  padding: 6.75% 12.688% 6.75% 12.688%;
+  padding: 3.75% 6.688% 3.75% 6.688%;
 }
 #suscri .buttom a:hover{
   background-color: $negro;

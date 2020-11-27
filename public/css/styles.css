@@ -435,8 +435,20 @@ li {
   padding: 0% 25.563% 8.438% 12.25%;
   text-align: start; }
 
-.subcontenido #imagen {
-  padding: 0% 39.813% 14.600% 12.25%; }
+.subcontenido #indicadores {
+  padding: 0% 39.813% 13.600% 12.25%; }
+
+.subcontenido #indicadores a.bola {
+  margin: 5px 5px 5px 5px;
+  border: solid 1px #000000;
+  background-color: transparent; }
+
+.subcontenido #indicadores a.bola {
+  padding: 0.4% 1% 0.4% 1%;
+  border-radius: 100% 100%; }
+
+.subcontenido #indicadores a.bola:hover {
+  background-color: rgba(0, 0, 0, 0.6); }
 
 #contenido3 {
   padding-top: 8.313%; }
@@ -470,6 +482,7 @@ li {
 
 .subcontenidos {
   width: 49%;
+  height: 180px;
   float: left;
   border: solid 1px #f2f4f5; }
 
@@ -477,10 +490,10 @@ li {
   padding: 0% 22.813% 2.688% 6.100%; }
 
 .some {
-  padding-bottom: 0.625%; }
+  padding-bottom: 0%; }
 
 .some2 {
-  padding-bottom: 2.224%; }
+  padding-bottom: 0%; }
 
 #contenido3 .estilo {
   font-weight: 400;
@@ -707,7 +720,10 @@ li {
   border: none;
   color: #c9c7c2;
   margin-left: 20%;
-  margin-bottom: 10.125%; }
+  margin-bottom: 5.125%; }
+
+#prefooter #suscri ul li {
+  padding-bottom: 3%; }
 
 #suscri ul {
   padding-left: 0%; }
@@ -723,7 +739,7 @@ li {
   font-size: 1rem;
   color: #000000;
   border: solid 1px #000000;
-  padding: 6.75% 12.688% 6.75% 12.688%; }
+  padding: 3.75% 6.688% 3.75% 6.688%; }
 
 #suscri .buttom a:hover {
   background-color: #000000;
@@ -759,6 +775,11 @@ li {
     width: 100%; }
   #contenido3 .buttom {
     margin: 4% 30% 8.5% 40.313%; }
+  .subcontenidos {
+    width: 49%;
+    height: 260px;
+    float: left;
+    border: solid 1px #f2f4f5; }
   #contenido4 h2 {
     font-size: 2.5rem; }
   #contenido4 p {
@@ -779,7 +800,8 @@ li {
   #titulo_contenido3 {
     font-size: 1.25rem; }
   .subcontenidos {
-    width: 99%; }
+    width: 99%;
+    height: 200px; }
   #contenido3 .buttom {
     margin: 4% 0% 8.5% 30.313%; }
   #contenido4 h2 {
