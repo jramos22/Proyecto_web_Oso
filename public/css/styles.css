@@ -426,17 +426,17 @@ li {
 .subcontenido #parrafo2 {
   font-weight: 700;
   font-size: 2.25rem;
-  padding: 8.563% 25.563% 12.125% 12.25%;
+  padding: 8.563% 25.563% 4.125% 12.25%;
   text-align: start; }
 
 .subcontenido #parrafo3 {
   font-weight: 300;
   font-size: 2.25rem;
-  padding: 0% 25.563% 8.438% 12.25%;
+  padding: 0% 25.563% 1.438% 12.25%;
   text-align: start; }
 
 .subcontenido #indicadores {
-  padding: 0% 39.813% 13.600% 12.25%; }
+  padding: 0% 39.813% 1.600% 12.25%; }
 
 .subcontenido #indicadores a.bola {
   margin: 5px 5px 5px 5px;
