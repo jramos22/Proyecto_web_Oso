@@ -79,16 +79,14 @@
 }
 .subcontenido #indicadores a.bola {
   margin: 5px 5px 5px 5px;
-  border: solid 1px $negro;
+  color: transparentize($color: $negro, $amount: 0.9);
+  @include fontsize(200px);
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: none;
   background-color: transparent;
 }
-.subcontenido #indicadores a.bola{
-  padding: 0.4% 1% 0.4% 1%;
-  border-radius: 100% 100%;
-
-}
 .subcontenido #indicadores a.bola:hover{
-  background-color: transparentize($color: $negro, $amount: 0.4);
+  color: transparentize($color: $negro, $amount: 0.4);
 }
 //fin contenido2
 

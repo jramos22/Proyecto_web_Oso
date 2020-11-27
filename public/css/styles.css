@@ -440,15 +440,14 @@ li {
 
 .subcontenido #indicadores a.bola {
   margin: 5px 5px 5px 5px;
-  border: solid 1px #000000;
+  color: rgba(0, 0, 0, 0.1);
+  font-size: 12.5rem;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: none;
   background-color: transparent; }
 
-.subcontenido #indicadores a.bola {
-  padding: 0.4% 1% 0.4% 1%;
-  border-radius: 100% 100%; }
-
 .subcontenido #indicadores a.bola:hover {
-  background-color: rgba(0, 0, 0, 0.6); }
+  color: rgba(0, 0, 0, 0.6); }
 
 #contenido3 {
   padding-top: 8.313%; }
