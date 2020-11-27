@@ -426,28 +426,27 @@ li {
 .subcontenido #parrafo2 {
   font-weight: 700;
   font-size: 2.25rem;
-  padding: 8.563% 25.563% 4.125% 12.25%;
+  padding: 18.563% 25.563% 6.125% 12.25%;
   text-align: start; }
 
 .subcontenido #parrafo3 {
   font-weight: 300;
   font-size: 2.25rem;
-  padding: 0% 25.563% 1.438% 12.25%;
+  padding: 0% 25.563% 0.438% 12.25%;
   text-align: start; }
 
 .subcontenido #indicadores {
-  padding: 0% 39.813% 1.600% 12.25%; }
+  margin: 6% 39.813% 11.900% 12.25%; }
 
 .subcontenido #indicadores a.bola {
-  margin: 5px 5px 5px 5px;
-  color: rgba(0, 0, 0, 0.1);
-  font-size: 12.5rem;
-  font-family: 'Times New Roman', Times, serif;
-  text-decoration: none;
-  background-color: transparent; }
+  padding: 0.2% 3% 0.2% 3%;
+  border: solid 1px #000000;
+  border-radius: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  margin: 5% 1% 5% 1%; }
 
 .subcontenido #indicadores a.bola:hover {
-  color: rgba(0, 0, 0, 0.6); }
+  background-color: rgba(0, 0, 0, 0.6); }
 
 #contenido3 {
   padding-top: 8.313%; }

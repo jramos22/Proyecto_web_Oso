@@ -65,28 +65,27 @@
 .subcontenido #parrafo2{
   font-weight: 700;
   @include fontsize(36px);
-  padding: 8.563% 25.563% 4.125% 12.25%;
+  padding: 18.563% 25.563% 6.125% 12.25%;
   text-align: start;
 }
 .subcontenido #parrafo3{
   font-weight: 300;
   @include fontsize(36px);
-  padding: 0% 25.563% 1.438% 12.25%;
+  padding: 0% 25.563% 0.438% 12.25%;
   text-align: start;
 }
 .subcontenido #indicadores{
-  padding: 0% 39.813% 1.600% 12.25%;
+  margin: 6% 39.813% 11.900% 12.25%;
 }
-.subcontenido #indicadores a.bola {
-  margin: 5px 5px 5px 5px;
-  color: transparentize($color: $negro, $amount: 0.9);
-  @include fontsize(200px);
-  font-family: 'Times New Roman', Times, serif;
-  text-decoration: none;
-  background-color: transparent;
+.subcontenido #indicadores a.bola{
+  padding: 0.2% 3% 0.2% 3%;
+  border: solid 1px $negro;
+  border-radius: 100%;
+  background-color: transparentize($color: $negro, $amount: 1);
+  margin: 5% 1% 5% 1%;
 }
 .subcontenido #indicadores a.bola:hover{
-  color: transparentize($color: $negro, $amount: 0.4);
+  background-color: transparentize($color: $negro, $amount: 0.4);
 }
 //fin contenido2
 
