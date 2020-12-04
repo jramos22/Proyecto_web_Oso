@@ -2,6 +2,7 @@
   max-width: 100%;
   background-image: url("../../img/Oso.png");
   background-size: cover;
+  position: relative;
 }
 #header1{
   max-width: 100%;
@@ -41,4 +42,51 @@
 #header1 h3 a:hover{
   color: $negro;
   border-color: $negro;
+}
+.modal{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.8);
+}
+.modal ul{
+  padding-top: 5.313%;
+}
+.modal ul li{
+  padding-top: 2.188%;
+  padding-left: 18.75%;
+}
+.modal li a{
+  font-family: 'Montserrat', sans-serif;
+  color: $grisoscuro;
+  text-decoration: none;
+  @include fontsize(46px);
+}
+.modal li a:hover{
+  color:$blanco;
+  text-decoration: underline;
+}
+.cerrar{
+  float: right;
+  margin-top: 1%;
+  margin-right: 2%;
+  @include fontsize(28px);
+  font-weight: bold;
+}
+.cerrar a{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  color: $grisoscuro;
+  text-align: center;
+  padding: 30%;
+  text-decoration: none;
+}
+.cerrar a:hover{
+  color: $blanco;
+}
+.ocultar {
+  display: none;
 }

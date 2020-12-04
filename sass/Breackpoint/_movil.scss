@@ -1,4 +1,8 @@
 @media (max-width: 693px){
+  //header
+.modal li a{
+  @include fontsize(25px);
+}
   //contenido1
   #titulo_contenido1{
     @include fontsize(40px);
