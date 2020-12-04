@@ -469,7 +469,7 @@ li {
 
 .subcontenido.imagen img {
   width: 100%;
-  height: 100%; }
+  height: 800px; }
 
 .subcontenido #parrafo2 {
   font-weight: 700;
@@ -821,6 +821,9 @@ li {
   .subcontenido {
     float: left;
     width: 100%; }
+  .subcontenido.imagen img {
+    width: 100%;
+    height: 100%; }
   #contenido3 .buttom {
     margin: 4% 30% 8.5% 40.313%; }
   .subcontenidos {
